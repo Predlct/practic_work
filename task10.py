@@ -11,3 +11,4 @@ arrival_city_eng = input('Город прибытия?(На английском
 
 print('Заканчивается посадка на рейс', number, company_rus, 'до',arrival_city_rus)
 print('This is the final boarding call for',company_eng, 'flight',number, 'to', arrival_city_eng)
+

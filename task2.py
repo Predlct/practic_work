@@ -1,5 +1,4 @@
 
-
 print("Привет, Python! \n"
       "Hello, Python! \n"
       "Bonjour,Python! \n"
