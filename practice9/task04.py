@@ -11,3 +11,4 @@ while quantity != 0:
         quantity = int(input('Введите количество веревок для этой команды:\n'))
 print(number)
 
+

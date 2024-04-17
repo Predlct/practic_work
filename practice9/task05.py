@@ -4,3 +4,4 @@ if str(x)[1] == x[5] and str(x)[2] == str(x)[4] and str( x +1)[1] == str( x +1)[
     print(x)
 else:
     x+=1
+
