@@ -10,5 +10,6 @@ def kl(k, n):
     else:
         return a
 
-n = int(input('Введите количество кубиков'))
+
+n = int(input('Введите количество кубиков:\n'))
 print(kl(0, n))
