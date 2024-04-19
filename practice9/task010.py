@@ -1,14 +1,14 @@
 
-number = int(input('Введите количество кубиков, не превыщающее 100:\n'))
+def kl(k, n):
+    a = 0
+    if n == 0:
+        return a+1
+    elif k < n:
+        for i in range(k+1, n+1):
+            a += kl(i, n-i)
+        return a
+    else:
+        return a
 
-for i in range(1, number+1):
-    if number == i:
-        if i == 1 or i == 2:
-            print(1)
-        elif i == 3:
-            print(2)
-        else:
-            print(number-2)
-
-
-
+n = int(input('Введите количество кубиков'))
+print(kl(0, n))
